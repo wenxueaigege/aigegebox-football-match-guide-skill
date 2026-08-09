@@ -18,9 +18,11 @@ description: 整理成年男子一线足球队的完整赛季赛程、赛事分�
 5. 规范化比赛数据。先运行 `scripts/normalize_fixtures.py`，再运行 `scripts/validate_fixtures.py`。
 6. 对日期、对手、赛事或转播渠道不确定的项目使用 `tbd`，显示“待定”，绝不凭常识补全；用户提供的既有海报、对话记录或结构化数据可以作为辅助来源，但必须标注为用户参考或 `scheduled`，不能冒充官方确认。
 7. 运行 `scripts/check_coverage.py`，输出已发现赛事、未覆盖赛事、转播确认数和最后检查时间。
-8. 读取球队配置并检查队徽库：先按 `teamId` 检查 `assets/` 中是否已有经过核验的官方队徽；已有就直接复用，不重复下载。库中没有时，必须从该俱乐部官网获取官方队徽资源，保存到 `assets/<teamId>-crest-official.<ext>`，并填写 `crest`、`crestSource`、`crestSourcePage` 和 `crestRightsNote`。官网无法访问或无法确认资源时暂停正式海报生成，向用户说明，不得用文字盾牌代替。
-9. 以 `asOfDate` 或最后检查日期为基准，排除已经结束、已取消和已过去的比赛，再运行 `scripts/render_poster.py`，生成面向未来看球的完整赛季长图。原始 JSON 和覆盖报告保留完整历史记录，不删除已结束比赛。根据第 2 步选择传入 `--qr-url`、`--footer-url`、`--footer-label` 或 `--no-qr`。
-10. 输出来源、更新时间、待确认项目和覆盖报告。
+8. 先按 `references/data-cache-policy.md` 运行 `scripts/sync_data_cache.py` 尝试读取独立资料库。缓存先读、来源后核验；资料库不可访问时回退到 `examples/` 和 `teams/`，并在输出中标明回退来源。同步只写本地缓存，不修改 Skill 或 GitHub。
+9. 读取球队配置并检查队徽库：先按 `teamId` 检查 `assets/` 中是否已有经过核验的官方队徽；已有就直接复用，不重复下载。库中没有时，必须从该俱乐部官网获取官方队徽资源，保存到 `assets/<teamId>-crest-official.<ext>`，并填写 `crest`、`crestSource`、`crestSourcePage` 和 `crestRightsNote`。官网无法访问或无法确认资源时暂停正式海报生成，向用户说明，不得用文字盾牌代替。
+10. 以 `asOfDate` 或最后检查日期为基准，排除已经结束、已取消和已过去的比赛，再运行 `scripts/render_poster.py`，生成面向未来看球的完整赛季长图。原始 JSON 和覆盖报告保留完整历史记录，不删除已结束比赛。根据第 2 步选择传入 `--qr-url`、`--footer-url`、`--footer-label` 或 `--no-qr`。
+11. 输出来源、更新时间、待确认项目和覆盖报告。
+12. 海报完成后，如用户明确同意，才运行 `scripts/prepare_contribution.py` 生成脱敏候选包；可选地提交受控接口。未同意、不联网或接口失败都不影响正常生成。候选包进入人工审核，不直接提交 GitHub。
 
 ## 渲染模块边界
 
@@ -28,6 +30,9 @@ description: 整理成年男子一线足球队的完整赛季赛程、赛事分�
 - `scripts/poster/registry.py` 负责赛事注册和分区；`expectedCompetitions` 只用于覆盖检查，不参与海报分区。
 - `scripts/poster/classic_layout.py` 负责杯赛面板排列，短赛事成对排列，长赛事按行拆分为双列，确保所有记录都被渲染。
 - `scripts/poster/output.py` 负责 HTML、SVG 尺寸和 PNG 栅格化；输出层不读取球队赛事逻辑。
+- `scripts/sync_data_cache.py` 只负责公共资料库读取和本地缓存，不修改渲染器。
+- `scripts/prepare_contribution.py` 只负责明确同意后的脱敏候选包和可选受控提交，不保存用户网址或身份。
+- `scripts/validate_dataset.py` 只负责独立资料库结构、来源、队徽和敏感字段校验。
 - 球队配置可使用 `competitionSpecs` 声明赛事名称、类型、区域、布局和待定显示策略；旧的 `competitionOrder` 继续兼容。
 
 ## 数据来源规则
@@ -78,6 +83,8 @@ python3 scripts/render_poster.py normalized.json --output-dir output --no-qr
 - `references/broadcast-schema.md`
 - `references/validation-rules.md`
 - `references/team-profile-schema.md`
+- `references/data-cache-policy.md`
+- `references/contribution-policy.md`
 - `references/poster-layout.md`
 - `scripts/qr_code.py`（标准库二维码编码器，供海报渲染脚本调用）
 
