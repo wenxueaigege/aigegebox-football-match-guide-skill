@@ -1,0 +1,45 @@
+{
+  "teamId": "beijing-guoan",
+  "nameZh": "北京国安",
+  "nameEn": "Beijing Guoan",
+  "crest": "assets/beijing-guoan-crest-official.png",
+  "crestSource": "http://www.fcguoan.com/public/img/logo.png",
+  "crestSourcePage": "http://www.fcguoan.com/",
+  "crestRightsNote": "官网公开引用资源；公开传播前确认俱乐部商标使用规范。",
+  "colors": {
+    "primary": "#087f5b",
+    "secondary": "#f8f9fa",
+    "accent": "#f4c542",
+    "text": "#173b34"
+  },
+  "styleProfile": "clean-stadium",
+  "competitionLabels": {
+    "domestic-league": "中超联赛",
+    "domestic-cup": "中国足协杯",
+    "continental": "亚冠精英联赛",
+    "friendly": "官方热身赛"
+  },
+  "competitionSpecs": [
+    {
+      "name": "中超联赛",
+      "competitionType": "domestic-league",
+      "section": "league",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "中国足协杯",
+      "competitionType": "domestic-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "亚冠精英联赛",
+      "competitionType": "continental",
+      "section": "cup",
+      "layout": "split-rows",
+      "showPending": true
+    }
+  ]
+}

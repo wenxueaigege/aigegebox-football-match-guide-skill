@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+试运行结果/
+输出/
+.env
+.env.*
+!.env.example

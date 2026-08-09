@@ -1,0 +1,2034 @@
+{
+  "team": {
+    "teamId": "arsenal",
+    "nameZh": "阿森纳",
+    "nameEn": "Arsenal",
+    "colors": {
+      "primary": "#d71920",
+      "secondary": "#ffffff",
+      "accent": "#f4c542",
+      "text": "#241b19"
+    },
+    "styleProfile": "classic-football",
+    "crest": "assets/arsenal-crest-official.svg"
+  },
+  "season": "2026/27",
+  "region": "CN-mainland",
+  "lastCheckedAt": "2026-08-09",
+  "asOfDate": "2026-08-09",
+  "sourceMode": "official-current-plus-tbd-broadcast",
+  "sourceTimeZone": "Europe/London",
+  "displayTimeZone": "Asia/Shanghai",
+  "dataNote": "以 2026-08-09 为查询基准。官方来源确认的赛事日期、对阵和比赛窗口予以保留；杯赛/欧冠尚未确认的对手、日期、场地显示待定。中国大陆逐场转播未取得官方排期，不使用版权协议或用户参考海报推断，统一显示转播待定。北京时间按官方已公布时间或官方赛程窗口整理，可能因后续调整变化。",
+  "expectedCompetitions": [
+    "Premier League",
+    "Emirates Cup",
+    "FA Community Shield",
+    "UEFA Champions League",
+    "FA Cup",
+    "EFL Cup",
+    "Official Friendlies"
+  ],
+  "sources": [
+    {
+      "organization": "Premier League",
+      "scope": "阿森纳2026/27英超完整赛程",
+      "url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "UEFA",
+      "scope": "2026/27欧冠抽签和比赛日窗口",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "UEFA",
+      "scope": "2026年欧洲赛事日历",
+      "url": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "The FA",
+      "scope": "2026/27足总杯轮次日期",
+      "url": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "EFL",
+      "scope": "2026/27联赛杯轮次日期",
+      "url": "https://www.efl.com/competitions/carabao-cup/",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "Premier League",
+      "scope": "2026季前赛及社区盾赛程",
+      "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-summer-2026-friendlies-and-tours",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "Arsenal / user reference",
+      "scope": "WorkBuddy参考海报中的北京时间、场地和渠道展示",
+      "url": "",
+      "checkedAt": "2026-08-08",
+      "kind": "user-reference"
+    },
+    {
+      "organization": "Real Betis",
+      "scope": "阿森纳对皇家贝蒂斯，阿维瓦体育场",
+      "url": "https://www.realbetisbalompie.es/noticias/primer-equipo/el-real-betis-y-el-arsenal-se-enfrentaran-en-el-aviva-stadium-de-dublin-el-proximo-5-de-agosto-32296",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "Arsenal ticketing",
+      "scope": "阿森纳对科莫，酋长球场",
+      "url": "https://www.arsenal.com/tickets/arsenal/2026-Aug-12/como-1907",
+      "checkedAt": "2026-08-08"
+    },
+    {
+      "organization": "Premier League",
+      "scope": "2026/27阿森纳英超赛程当前复核",
+      "url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "checkedAt": "2026-08-09",
+      "kind": "official-current-check"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixtureId": "arsenal-friendly-20260801-girona",
+      "competition": "Official Friendlies",
+      "competitionType": "friendly",
+      "stage": "季前赛",
+      "date": "2026-08-01",
+      "time": "02:00",
+      "opponent": "赫罗纳",
+      "venue": "neutral",
+      "status": "confirmed",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "阿森纳官方平台",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-summer-2026-friendlies-and-tours",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间；参考海报列为中立场",
+      "location": "蒙蒂利维球场",
+      "dateLabel": "2026年8月1日"
+    },
+    {
+      "fixtureId": "arsenal-friendly-20260805-betis",
+      "competition": "Official Friendlies",
+      "competitionType": "friendly",
+      "stage": "季前赛",
+      "date": "2026-08-05",
+      "time": "02:30",
+      "opponent": "皇家贝蒂斯",
+      "venue": "neutral",
+      "status": "confirmed",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "阿森纳官方平台",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.realbetisbalompie.es/noticias/primer-equipo/el-real-betis-y-el-arsenal-se-enfrentaran-en-el-aviva-stadium-de-dublin-el-proximo-5-de-agosto-32296",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间；参考海报列为中立场",
+      "location": "阿维瓦体育场（都柏林）",
+      "dateLabel": "2026年8月5日"
+    },
+    {
+      "fixtureId": "arsenal-emirates-cup-20260809-dortmund",
+      "competition": "Emirates Cup",
+      "competitionType": "friendly",
+      "stage": "酋长杯",
+      "date": "2026-08-09",
+      "time": "21:00",
+      "opponent": "多特蒙德",
+      "venue": "home",
+      "status": "confirmed",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "阿森纳官方平台",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.arsenal.com/news/dortmund-confirmed-emirates-cup-2026-opponents",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间；酋长杯",
+      "location": "酋长球场",
+      "dateLabel": "2026年8月9日"
+    },
+    {
+      "fixtureId": "arsenal-friendly-20260812-como",
+      "competition": "Official Friendlies",
+      "competitionType": "friendly",
+      "stage": "季前赛",
+      "date": "2026-08-12",
+      "time": "02:30",
+      "opponent": "科莫",
+      "venue": "home",
+      "status": "confirmed",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "阿森纳官方平台",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.arsenal.com/tickets/arsenal/2026-Aug-12/como-1907",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间；阿森纳票务页面已列出主场热身赛",
+      "location": "酋长球场",
+      "dateLabel": "2026年8月12日"
+    },
+    {
+      "fixtureId": "arsenal-community-shield-20260816-man-city",
+      "competition": "FA Community Shield",
+      "competitionType": "super-cup",
+      "stage": "社区盾",
+      "date": "2026-08-16",
+      "time": "22:00",
+      "opponent": "曼城",
+      "venue": "neutral",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.arsenal.com/news/2026-community-shield-take-place-cardiff",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间；参考海报列出的中国大陆渠道，赛前仍需以官方排期为准",
+      "location": "卡迪夫千禧体育场",
+      "dateLabel": "2026年8月16日"
+    },
+    {
+      "fixtureId": "arsenal-pl-20260821-coventry",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第1轮",
+      "date": "2026-08-21",
+      "time": "03:00",
+      "opponent": "考文垂",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20260829-aston-villa",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第2轮",
+      "date": "2026-08-29",
+      "time": "22:00",
+      "opponent": "阿斯顿维拉",
+      "venue": "away",
+      "location": "维拉公园球场（Villa Park）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20260906-chelsea",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第3轮",
+      "date": "2026-09-06",
+      "time": "23:30",
+      "opponent": "切尔西",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20260912-sunderland",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第4轮",
+      "date": "2026-09-12",
+      "time": "03:00",
+      "opponent": "桑德兰",
+      "venue": "away",
+      "location": "光明球场（Stadium of Light）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20260919-brighton",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第5轮",
+      "date": "2026-09-19",
+      "time": "22:00",
+      "opponent": "布莱顿",
+      "venue": "away",
+      "location": "美国运通社区球场（American Express Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261010-leeds",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第6轮",
+      "date": "2026-10-10",
+      "time": "22:00",
+      "opponent": "利兹联",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261017-nottingham-forest",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第7轮",
+      "date": "2026-10-17",
+      "time": "22:00",
+      "opponent": "诺丁汉森林",
+      "venue": "away",
+      "location": "城市球场（The City Ground）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261024-everton",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第8轮",
+      "date": "2026-10-24",
+      "time": "22:00",
+      "opponent": "埃弗顿",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261031-liverpool",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第9轮",
+      "date": "2026-10-31",
+      "time": "23:00",
+      "opponent": "利物浦",
+      "venue": "away",
+      "location": "安菲尔德球场（Anfield）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261107-hull",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第10轮",
+      "date": "2026-11-07",
+      "time": "23:00",
+      "opponent": "赫尔城",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261121-newcastle",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第11轮",
+      "date": "2026-11-21",
+      "time": "23:00",
+      "opponent": "纽卡斯尔联",
+      "venue": "away",
+      "location": "圣詹姆斯公园球场（St James' Park）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261128-manchester-city",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第12轮",
+      "date": "2026-11-28",
+      "time": "23:00",
+      "opponent": "曼彻斯特城",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261202-brentford",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第13轮",
+      "date": "2026-12-02",
+      "time": "04:00",
+      "opponent": "布伦特福德",
+      "venue": "away",
+      "location": "Gtech社区球场（Gtech Community Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261205-tottenham",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第14轮",
+      "date": "2026-12-05",
+      "time": "23:00",
+      "opponent": "托特纳姆热刺",
+      "venue": "away",
+      "location": "托特纳姆热刺球场（Tottenham Hotspur Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261212-bournemouth",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第15轮",
+      "date": "2026-12-12",
+      "time": "23:00",
+      "opponent": "伯恩茅斯",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261219-manchester-united",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第16轮",
+      "date": "2026-12-19",
+      "time": "23:00",
+      "opponent": "曼彻斯特联",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261226-crystal-palace",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第17轮",
+      "date": "2026-12-26",
+      "time": "23:00",
+      "opponent": "水晶宫",
+      "venue": "away",
+      "location": "塞尔赫斯特公园球场（Selhurst Park）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20261230-fulham",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第18轮",
+      "date": "2026-12-30",
+      "time": "04:00",
+      "opponent": "富勒姆",
+      "venue": "away",
+      "location": "克拉文农场球场（Craven Cottage）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270102-ipswich",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第19轮",
+      "date": "2027-01-02",
+      "time": "23:00",
+      "opponent": "伊普斯维奇",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270106-brentford",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第20轮",
+      "date": "2027-01-06",
+      "time": "04:00",
+      "opponent": "布伦特福德",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270116-hull",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第21轮",
+      "date": "2027-01-16",
+      "time": "23:00",
+      "opponent": "赫尔城",
+      "venue": "away",
+      "location": "MKM球场（MKM Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270123-newcastle",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第22轮",
+      "date": "2027-01-23",
+      "time": "23:00",
+      "opponent": "纽卡斯尔联",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270130-manchester-city",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第23轮",
+      "date": "2027-01-30",
+      "time": "23:00",
+      "opponent": "曼彻斯特城",
+      "venue": "away",
+      "location": "伊蒂哈德球场（Etihad Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270206-liverpool",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第24轮",
+      "date": "2027-02-06",
+      "time": "23:00",
+      "opponent": "利物浦",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270210-ipswich",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第25轮",
+      "date": "2027-02-10",
+      "time": "04:00",
+      "opponent": "伊普斯维奇",
+      "venue": "away",
+      "location": "波特曼路球场（Portman Road）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270220-fulham",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第26轮",
+      "date": "2027-02-20",
+      "time": "23:00",
+      "opponent": "富勒姆",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270227-manchester-united",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第27轮",
+      "date": "2027-02-27",
+      "time": "23:00",
+      "opponent": "曼彻斯特联",
+      "venue": "away",
+      "location": "老特拉福德球场（Old Trafford）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270303-crystal-palace",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第28轮",
+      "date": "2027-03-03",
+      "time": "04:00",
+      "opponent": "水晶宫",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270313-chelsea",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第29轮",
+      "date": "2027-03-13",
+      "time": "23:00",
+      "opponent": "切尔西",
+      "venue": "away",
+      "location": "斯坦福桥球场（Stamford Bridge）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "CCTV5",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270320-sunderland",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第30轮",
+      "date": "2027-03-20",
+      "time": "23:00",
+      "opponent": "桑德兰",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270410-coventry",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第31轮",
+      "date": "2027-04-10",
+      "time": "22:00",
+      "opponent": "考文垂",
+      "venue": "away",
+      "location": "考文垂建筑协会竞技场（Coventry Building Society Arena）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270417-aston-villa",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第32轮",
+      "date": "2027-04-17",
+      "time": "22:00",
+      "opponent": "阿斯顿维拉",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270424-bournemouth",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第33轮",
+      "date": "2027-04-24",
+      "time": "22:00",
+      "opponent": "伯恩茅斯",
+      "venue": "away",
+      "location": "活力球场（Vitality Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270501-tottenham",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第34轮",
+      "date": "2027-05-01",
+      "time": "22:00",
+      "opponent": "托特纳姆热刺",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270508-leeds",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第35轮",
+      "date": "2027-05-08",
+      "time": "22:00",
+      "opponent": "利兹联",
+      "venue": "away",
+      "location": "埃兰路球场（Elland Road）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270515-nottingham-forest",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第36轮",
+      "date": "2027-05-15",
+      "time": "22:00",
+      "opponent": "诺丁汉森林",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270523-everton",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第37轮",
+      "date": "2027-05-23",
+      "time": "23:00",
+      "opponent": "埃弗顿",
+      "venue": "away",
+      "location": "希尔·迪金森球场（Hill Dickinson Stadium）",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整"
+    },
+    {
+      "fixtureId": "arsenal-pl-20270530-brighton",
+      "competition": "Premier League",
+      "competitionType": "domestic-league",
+      "stage": "第38轮",
+      "date": "2027-05-30",
+      "time": "23:00",
+      "opponent": "布莱顿",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [
+        {
+          "region": "CN-mainland",
+          "platform": "咪咕视频",
+          "status": "tbd",
+          "source": "https://www.premierleague.com/en/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        },
+        {
+          "region": "CN-mainland",
+          "platform": "爱奇艺体育",
+          "status": "tbd",
+          "source": "用户提供的 WorkBuddy 参考海报（截至 2026-08-05）",
+          "updatedAt": "2026-08-09",
+          "note": "未取得中国大陆逐场官方排期，暂不作为已确认渠道展示。"
+        }
+      ],
+      "source": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "updatedAt": "2026-08-08",
+      "note": "北京时间初排，英超转播选台和最终开球时间可能调整",
+      "location": "酋长球场"
+    },
+    {
+      "fixtureId": "arsenal-efl-cup-1",
+      "competition": "EFL Cup",
+      "competitionType": "league-cup",
+      "stage": "第三轮",
+      "date": null,
+      "time": null,
+      "opponent": "第三轮",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.efl.com/competitions/carabao-cup/",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2026年9月15/16日"
+    },
+    {
+      "fixtureId": "arsenal-efl-cup-2",
+      "competition": "EFL Cup",
+      "competitionType": "league-cup",
+      "stage": "第四轮",
+      "date": null,
+      "time": null,
+      "opponent": "第四轮",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.efl.com/competitions/carabao-cup/",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2026年10月27/28日"
+    },
+    {
+      "fixtureId": "arsenal-efl-cup-3",
+      "competition": "EFL Cup",
+      "competitionType": "league-cup",
+      "stage": "第五轮",
+      "date": null,
+      "time": null,
+      "opponent": "第五轮",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.efl.com/competitions/carabao-cup/",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2026年12月15/16日"
+    },
+    {
+      "fixtureId": "arsenal-efl-cup-4",
+      "competition": "EFL Cup",
+      "competitionType": "league-cup",
+      "stage": "半决赛首回合",
+      "date": null,
+      "time": null,
+      "opponent": "半决赛首回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.efl.com/competitions/carabao-cup/",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年1月12/13日"
+    },
+    {
+      "fixtureId": "arsenal-efl-cup-5",
+      "competition": "EFL Cup",
+      "competitionType": "league-cup",
+      "stage": "半决赛次回合",
+      "date": null,
+      "time": null,
+      "opponent": "半决赛次回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.efl.com/competitions/carabao-cup/",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年2月2/3日"
+    },
+    {
+      "fixtureId": "arsenal-efl-cup-6",
+      "competition": "EFL Cup",
+      "competitionType": "league-cup",
+      "stage": "决赛",
+      "date": null,
+      "time": null,
+      "opponent": "决赛",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.efl.com/competitions/carabao-cup/",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年3月21日"
+    },
+    {
+      "fixtureId": "arsenal-fa-cup-1",
+      "competition": "FA Cup",
+      "competitionType": "domestic-cup",
+      "stage": "第三轮",
+      "date": null,
+      "time": null,
+      "opponent": "第三轮",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年1月8-11日"
+    },
+    {
+      "fixtureId": "arsenal-fa-cup-2",
+      "competition": "FA Cup",
+      "competitionType": "domestic-cup",
+      "stage": "第四轮",
+      "date": null,
+      "time": null,
+      "opponent": "第四轮",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年2月12-15日"
+    },
+    {
+      "fixtureId": "arsenal-fa-cup-3",
+      "competition": "FA Cup",
+      "competitionType": "domestic-cup",
+      "stage": "第五轮",
+      "date": null,
+      "time": null,
+      "opponent": "第五轮",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年3月5-8日"
+    },
+    {
+      "fixtureId": "arsenal-fa-cup-4",
+      "competition": "FA Cup",
+      "competitionType": "domestic-cup",
+      "stage": "八强",
+      "date": null,
+      "time": null,
+      "opponent": "八强",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年4月2-5日"
+    },
+    {
+      "fixtureId": "arsenal-fa-cup-5",
+      "competition": "FA Cup",
+      "competitionType": "domestic-cup",
+      "stage": "半决赛",
+      "date": null,
+      "time": null,
+      "opponent": "半决赛",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年4月24-25日"
+    },
+    {
+      "fixtureId": "arsenal-fa-cup-6",
+      "competition": "FA Cup",
+      "competitionType": "domestic-cup",
+      "stage": "决赛",
+      "date": null,
+      "time": null,
+      "opponent": "决赛",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thefa.com/competitions/thefacup/round-dates",
+      "updatedAt": "2026-08-08",
+      "note": "阿森纳对手、是否参赛及开球时间待抽签/官方确认",
+      "dateLabel": "2027年5月22日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-1",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 1",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 1",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2026年9月8-10日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-2",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 2",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 2",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2026年10月13/14日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-3",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 3",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 3",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2026年10月20/21日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-4",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 4",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 4",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2026年11月3/4日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-5",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 5",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 5",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2026年11月25/26日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-6",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 6",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 6",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2026年12月8/9日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-7",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 7",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 7",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年1月19/20日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-8",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "Matchday 8",
+      "date": null,
+      "time": null,
+      "opponent": "Matchday 8",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年1月27日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-9",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "附加赛首回合",
+      "date": null,
+      "time": null,
+      "opponent": "附加赛首回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年2月16/17日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-10",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "附加赛次回合",
+      "date": null,
+      "time": null,
+      "opponent": "附加赛次回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年2月23/24日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-11",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "1/8决赛首回合",
+      "date": null,
+      "time": null,
+      "opponent": "1/8决赛首回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年3月9/10日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-12",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "1/8决赛次回合",
+      "date": null,
+      "time": null,
+      "opponent": "1/8决赛次回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年3月16/17日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-13",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "1/4决赛首回合",
+      "date": null,
+      "time": null,
+      "opponent": "1/4决赛首回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年4月6/7日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-14",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "1/4决赛次回合",
+      "date": null,
+      "time": null,
+      "opponent": "1/4决赛次回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年4月13/14日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-15",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "半决赛首回合",
+      "date": null,
+      "time": null,
+      "opponent": "半决赛首回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年4月27/28日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-16",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "半决赛次回合",
+      "date": null,
+      "time": null,
+      "opponent": "半决赛次回合",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年5月4/5日"
+    },
+    {
+      "fixtureId": "arsenal-ucl-17",
+      "competition": "UEFA Champions League",
+      "competitionType": "continental",
+      "stage": "决赛",
+      "date": null,
+      "time": null,
+      "opponent": "决赛",
+      "venue": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.uefa.com/news-media/news/02a0-1f71bdf70a9a-b6067bd70a9a-b6067bd647f2-1000--2026-european-football-calendar-dates-for-all-uefa-competiti/",
+      "updatedAt": "2026-08-08",
+      "note": "对手、主客场和具体开球时间待抽签/官方确认",
+      "dateLabel": "2027年6月5日"
+    }
+  ]
+}

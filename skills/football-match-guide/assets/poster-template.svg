@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#f7f2e9"/>
+  <rect x="24" y="24" width="1032" height="210" rx="18" fill="var(--primary, #d71920)"/>
+  <text x="64" y="92" font-size="28" fill="var(--accent, #f4c542)">SEASON MATCH GUIDE</text>
+  <text x="64" y="158" font-size="54" font-weight="700" fill="var(--secondary, #ffffff)">球队名称 · 赛季</text>
+  <text x="64" y="205" font-size="22" fill="var(--secondary, #ffffff)">中国大陆看球赛程</text>
+</svg>

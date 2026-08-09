@@ -1,0 +1,47 @@
+{
+  "teamId": "real-madrid",
+  "nameZh": "皇家马德里",
+  "nameEn": "Real Madrid",
+  "colors": {
+    "primary": "#0b2d6b",
+    "secondary": "#ffffff",
+    "accent": "#d4af37",
+    "text": "#152238"
+  },
+  "styleProfile": "classic-football",
+  "crest": "assets/real-madrid-crest-official.png",
+  "crestSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-madrid.png",
+  "crestSourcePage": "https://www.laliga.com/es-GB/clubes/real-madrid/proximos-partidos",
+  "crestRightsNote": "队徽为赛事资料中的官方俱乐部标识，仅用于球队赛程识别；公开发布前应遵守相关商标和版权规则。",
+  "leagueNameZh": "西甲联赛",
+  "leagueNameEn": "La Liga",
+  "leagueTitle": "西甲联赛",
+  "competitionSpecs": [
+    {
+      "name": "Copa del Rey",
+      "competitionType": "domestic-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "Supercopa de España",
+      "competitionType": "super-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "UEFA Champions League",
+      "competitionType": "continental",
+      "section": "cup",
+      "layout": "split-rows",
+      "showPending": true
+    }
+  ],
+  "competitionOrder": [
+    "Copa del Rey",
+    "Supercopa de España",
+    "UEFA Champions League"
+  ]
+}

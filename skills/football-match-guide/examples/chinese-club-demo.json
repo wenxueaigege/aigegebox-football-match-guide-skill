@@ -1,0 +1,113 @@
+{
+  "team": {
+    "teamId": "chinese-club-demo",
+    "nameZh": "中国球队演示",
+    "nameEn": "Chinese Club Demo",
+    "colors": {
+      "primary": "#087f5b",
+      "secondary": "#f8f9fa",
+      "accent": "#f59f00",
+      "text": "#1f2933"
+    },
+    "styleProfile": "clean-stadium"
+  },
+  "season": "2026",
+  "region": "CN-mainland",
+  "lastCheckedAt": "2026-08-08",
+  "asOfDate": "2026-08-08",
+  "sourceMode": "demo",
+  "dataNote": "演示数据，仅用于测试中超、足协杯和洲际赛事分组，不代表当前官方赛程。",
+  "expectedCompetitions": ["中超联赛", "中国足协杯", "亚冠精英联赛"],
+  "fixtures": [
+    {
+      "fixtureId": "demo-cn-league-1",
+      "competition": "中超联赛",
+      "competitionType": "domestic-league",
+      "stage": "第1轮",
+      "date": "2026-08-15",
+      "time": "19:35",
+      "opponent": "上海申花",
+      "venue": "home",
+      "status": "confirmed",
+      "broadcasts": [{"region": "CN-mainland", "platform": "咪咕视频", "channel": "待确认", "status": "scheduled", "source": "demo-data", "updatedAt": "2026-08-08"}],
+      "source": "demo-data",
+      "updatedAt": "2026-08-08",
+      "note": "演示数据"
+    },
+    {
+      "fixtureId": "demo-cn-league-2",
+      "competition": "中超联赛",
+      "competitionType": "domestic-league",
+      "stage": "第2轮",
+      "date": "2026-08-22",
+      "time": "19:35",
+      "opponent": "北京国安",
+      "venue": "away",
+      "status": "confirmed",
+      "broadcasts": [],
+      "source": "demo-data",
+      "updatedAt": "2026-08-08",
+      "note": "演示数据"
+    },
+    {
+      "fixtureId": "demo-cn-fa-1",
+      "competition": "中国足协杯",
+      "competitionType": "domestic-cup",
+      "stage": "第4轮",
+      "date": null,
+      "time": null,
+      "opponent": "对手待定",
+      "venue": "unknown",
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "demo-data",
+      "updatedAt": "2026-08-08",
+      "note": "抽签后更新"
+    },
+    {
+      "fixtureId": "demo-cn-acl-1",
+      "competition": "亚冠精英联赛",
+      "competitionType": "continental",
+      "stage": "小组赛",
+      "date": "2026-09-16",
+      "time": "20:00",
+      "opponent": "对手待定",
+      "venue": "home",
+      "status": "tbd",
+      "broadcasts": [{"region": "CN-mainland", "platform": "", "channel": "", "status": "tbd", "source": "", "updatedAt": "2026-08-08"}],
+      "source": "demo-data",
+      "updatedAt": "2026-08-08",
+      "note": "对手和转播待定"
+    },
+    {
+      "fixtureId": "demo-cn-league-3",
+      "competition": "中超联赛",
+      "competitionType": "domestic-league",
+      "stage": "第18轮",
+      "date": "2026-10-18",
+      "time": "19:35",
+      "opponent": "山东泰山",
+      "venue": "home",
+      "status": "scheduled",
+      "broadcasts": [],
+      "source": "demo-data",
+      "updatedAt": "2026-08-08",
+      "note": "演示数据"
+    },
+    {
+      "fixtureId": "demo-cn-friendly-1",
+      "competition": "官方热身赛",
+      "competitionType": "friendly",
+      "stage": "热身赛",
+      "date": "2026-11-11",
+      "time": "19:30",
+      "opponent": "对手待定",
+      "venue": "neutral",
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "demo-data",
+      "updatedAt": "2026-08-08",
+      "note": "是否直播待定"
+    }
+  ]
+}

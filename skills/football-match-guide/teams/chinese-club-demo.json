@@ -1,0 +1,18 @@
+{
+  "teamId": "chinese-club-demo",
+  "nameZh": "中国球队演示",
+  "nameEn": "Chinese Club Demo",
+  "crest": "",
+  "colors": {
+    "primary": "#087f5b",
+    "secondary": "#f8f9fa",
+    "accent": "#f59f00",
+    "text": "#1f2933"
+  },
+  "styleProfile": "clean-stadium",
+  "competitionLabels": {
+    "domestic-league": "中超联赛",
+    "domestic-cup": "中国足协杯",
+    "continental": "洲际赛事"
+  }
+}

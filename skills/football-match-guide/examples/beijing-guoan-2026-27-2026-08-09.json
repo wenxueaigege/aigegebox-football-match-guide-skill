@@ -1,0 +1,109 @@
+{
+  "team": {
+    "teamId": "beijing-guoan",
+    "nameZh": "北京国安",
+    "nameEn": "Beijing Guoan",
+    "colors": {
+      "primary": "#087f5b",
+      "secondary": "#f8f9fa",
+      "accent": "#f4c542",
+      "text": "#173b34"
+    },
+    "styleProfile": "clean-stadium"
+  },
+  "season": "2026/27",
+  "sourceSeason": "2026国内赛季 + 2026/27亚冠赛季",
+  "region": "CN-mainland",
+  "lastCheckedAt": "2026-08-09",
+  "asOfDate": "2026-08-09",
+  "sourceMode": "official-search-with-pending",
+  "dataNote": "中国国内赛事官方按2026赛季命名；本次沿用用户请求的2026/27作为海报标题。没有逐场官方确认的信息保留为待定。",
+  "expectedCompetitions": [
+    "中超联赛",
+    "中国足协杯",
+    "亚冠精英联赛"
+  ],
+  "sources": [
+    {
+      "organization": "中国足球协会",
+      "title": "中国足协公布2026赛季竞赛日历",
+      "url": "https://www.thecfa.cn/lstz/20251120/37089.html",
+      "checkedAt": "2026-08-09",
+      "note": "确认2026赛季中超、足协杯时间范围，以及2026/27亚冠赛事在2026年下半年进行。"
+    },
+    {
+      "organization": "中国足球协会",
+      "title": "70载荣耀共享：2026中国足协杯第二次抽签仪式",
+      "url": "https://www.thecfa.cn/zuxiebei/20260626/37811.html",
+      "checkedAt": "2026-08-09",
+      "note": "确认北京国安进入足协杯后续淘汰赛，抽签结果及主客场以官方报道为准。"
+    },
+    {
+      "organization": "中国足球协会",
+      "title": "成都蓉城无缘足协杯八强，兰州陇原竞技成最大黑马",
+      "url": "https://www.thecfa.cn/zuxiebei/20260723/37979.html",
+      "checkedAt": "2026-08-09",
+      "note": "确认足协杯1/4决赛计划于2026年9月1日至2日举行，兰州陇原竞技对阵北京国安。"
+    },
+    {
+      "organization": "中国足球协会",
+      "title": "中国足协关于开展2026/27赛季亚冠联赛准入工作的通知",
+      "url": "https://www.thecfa.cn/qttz/20260123/37255.html",
+      "checkedAt": "2026-08-09",
+      "note": "确认北京国安获得2026/27亚冠精英联赛非直接参赛名额，具体比赛信息待官方公布。"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixtureId": "bjguoan-csl-2026-pending",
+      "competition": "中超联赛",
+      "competitionType": "domestic-league",
+      "stage": "未获取到逐场官方后半程赛程",
+      "date": null,
+      "dateLabel": "后续赛程待定",
+      "time": null,
+      "opponent": "对手待定",
+      "venue": null,
+      "location": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thecfa.cn/lstz/20251120/37089.html",
+      "updatedAt": "2026-08-09",
+      "note": "官方竞赛日历确认中超2026年3月6日开赛、11月8日结束；逐场时间和对阵本次未核验。"
+    },
+    {
+      "fixtureId": "bjguoan-fa-cup-qf-2026",
+      "competition": "中国足协杯",
+      "competitionType": "domestic-cup",
+      "stage": "1/4决赛",
+      "date": null,
+      "dateLabel": "2026年9月1-2日",
+      "time": null,
+      "opponent": "兰州陇原竞技天佑德",
+      "venue": "away",
+      "location": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thecfa.cn/zuxiebei/20260723/37979.html",
+      "updatedAt": "2026-08-09",
+      "note": "官方已确认轮次、日期范围、对手和主客；具体开球时间及场地待确认。"
+    },
+    {
+      "fixtureId": "bjguoan-acl-2026-27-pending",
+      "competition": "亚冠精英联赛",
+      "competitionType": "continental",
+      "stage": "附加赛资格",
+      "date": null,
+      "dateLabel": "2026年下半年",
+      "time": null,
+      "opponent": "对手待定",
+      "venue": null,
+      "location": null,
+      "status": "tbd",
+      "broadcasts": [],
+      "source": "https://www.thecfa.cn/qttz/20260123/37255.html",
+      "updatedAt": "2026-08-09",
+      "note": "官方确认参赛资格和赛季范围，具体附加赛对阵、日期、场地及转播待确认。"
+    }
+  ]
+}

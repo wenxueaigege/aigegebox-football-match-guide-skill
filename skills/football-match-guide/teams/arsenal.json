@@ -1,0 +1,44 @@
+{
+  "teamId": "arsenal",
+  "nameZh": "阿森纳",
+  "nameEn": "Arsenal",
+  "crest": "assets/arsenal-crest-official.svg",
+  "crestSource": "https://resources.premierleague.com/premierleague25/badges-alt/3.svg",
+  "crestSourcePage": "https://www.premierleague.com/en/clubs/3/arsenal/overview",
+  "crestRightsNote": "Arsenal crest is a protected club trademark. Confirm permission before public or commercial distribution.",
+  "colors": {
+    "primary": "#d71920",
+    "secondary": "#ffffff",
+    "accent": "#f4c542",
+    "text": "#241b19"
+  },
+  "styleProfile": "classic-football",
+  "competitionSpecs": [
+    {
+      "name": "EFL Cup",
+      "competitionType": "league-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "FA Cup",
+      "competitionType": "domestic-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "UEFA Champions League",
+      "competitionType": "continental",
+      "section": "cup",
+      "layout": "split-rows",
+      "showPending": true
+    }
+  ],
+  "competitionLabels": {
+    "domestic-league": "英超联赛",
+    "continental": "欧战",
+    "domestic-cup": "国内杯赛"
+  }
+}
