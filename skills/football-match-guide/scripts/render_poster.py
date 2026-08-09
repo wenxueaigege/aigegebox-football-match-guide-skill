@@ -26,6 +26,7 @@ from poster.registry import build_registry, specs_for_section
 
 FONT = "Arial, PingFang SC, Microsoft YaHei, sans-serif"
 DEFAULT_QR_URL = "http://www.wenxueaigege.com?from=football-match-guide"
+DEFAULT_SITE_URL = "http://www.wenxueaigege.com"
 TYPE_LABELS = {
     "domestic-league": "联赛",
     "domestic-cup": "国内杯赛",
@@ -550,7 +551,21 @@ def source_summary(payload: dict[str, Any]) -> str:
     return " / ".join(organizations[:4]) or "官方赛事来源"
 
 
-def make_classic_svg(payload: dict[str, Any], team: dict[str, Any], qr_url: str = "", as_of: str = "") -> str:
+def footer_site_text(value: str) -> str:
+    """Keep a custom footer URL readable without changing the QR target."""
+    clean = re.sub(r"^https?://", "", str(value or "").strip())
+    clean = clean.split("?", 1)[0].rstrip("/")
+    return clean[:54] + ("…" if len(clean) > 54 else "")
+
+
+def make_classic_svg(
+    payload: dict[str, Any],
+    team: dict[str, Any],
+    qr_url: str = "",
+    as_of: str = "",
+    footer_url: str = DEFAULT_SITE_URL,
+    footer_label: str = "格格的工具箱",
+) -> str:
     palette = classic_palette(team)
     checked_date = reference_date(payload, as_of)
     all_fixtures = [fixture for fixture in payload.get("fixtures", []) if isinstance(fixture, dict)]
@@ -581,7 +596,7 @@ def make_classic_svg(payload: dict[str, Any], team: dict[str, Any], qr_url: str 
     text(parts, 560, 169, "Fixtures & Broadcast Guide", 15, "#ffd98b", "400", "middle")
     if qr_url:
         qr_svg(parts, qr_url, 900, 78, 112, "")
-        text(parts, 956, 205, "格格的工具箱", 11, "#ffffff", "600", "middle")
+        text(parts, 956, 205, footer_label[:18], 11, "#ffffff", "600", "middle")
     else:
         text(parts, 956, 130, team.get("nameEn") or "TEAM", 20, "#ffffff", "700", "middle")
     y = 225
@@ -595,7 +610,7 @@ def make_classic_svg(payload: dict[str, Any], team: dict[str, Any], qr_url: str 
     footer_y = y + 90
     rect(parts, 0, footer_y, 1080, 70, palette["deep"], 0)
     parts.append(f'<line x1="30" y1="{footer_y + 13}" x2="1050" y2="{footer_y + 13}" stroke="{palette["gold"]}" stroke-width="3"/>')
-    text(parts, 540, footer_y + 48, "格格的工具箱 · http://www.wenxueaigege.com", 20, "#ffffff", "700", "middle")
+    text(parts, 540, footer_y + 48, f"{footer_label} · {footer_site_text(footer_url)}", 20, "#ffffff", "700", "middle")
     text(parts, 1028, footer_y + 58, "Skill生成", 10, "#ffd98b", "400", "end")
     parts.append("</svg>")
     return "".join(parts)
@@ -758,6 +773,8 @@ def main() -> int:
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--team-profile", type=Path)
     parser.add_argument("--qr-url", default=DEFAULT_QR_URL, help="二维码目标链接，默认带来源标记的格格工具箱主页")
+    parser.add_argument("--footer-url", default="", help="海报底部显示的网址；不填时默认显示格格工具箱主页")
+    parser.add_argument("--footer-label", default="格格的工具箱", help="二维码和底部网址前的署名，默认格格的工具箱")
     parser.add_argument("--no-qr", action="store_true", help="不在输出中绘制二维码")
     parser.add_argument("--as-of", default="", help="近期比赛起算日期，默认使用 asOfDate 或 lastCheckedAt")
     parser.add_argument("--png-scale", type=int, default=4, choices=range(1, 9), metavar="1-8", help="PNG 输出倍率，默认 4")
@@ -772,13 +789,14 @@ def main() -> int:
         parser.error(str(exc))
     args.output_dir.mkdir(parents=True, exist_ok=True)
     qr_url = "" if args.no_qr else args.qr_url
+    footer_url = args.footer_url or (qr_url if qr_url else DEFAULT_SITE_URL)
     try:
         if qr_url:
             qr_matrix(qr_url)
         qr_rendered = bool(qr_url)
     except ValueError:
         qr_rendered = False
-    poster = make_classic_svg(payload, profile, qr_url, args.as_of)
+    poster = make_classic_svg(payload, profile, qr_url, args.as_of, footer_url, args.footer_label)
     poster_svg_path = args.output_dir / "season-poster.svg"
     poster_svg_path.write_text(poster, encoding="utf-8")
     write_html(args.output_dir / "season-poster.html", "赛季看球赛程", poster, esc)
@@ -810,6 +828,8 @@ def main() -> int:
         "qrUrlProvided": bool(qr_url),
         "qrRendered": qr_rendered,
         "qrPlacement": {"seasonPoster": "header-top-right"},
+        "footerUrl": footer_url,
+        "footerLabel": args.footer_label,
         "crest": {
             "asset": profile.get("crest", ""),
             "source": profile.get("crestSource", ""),

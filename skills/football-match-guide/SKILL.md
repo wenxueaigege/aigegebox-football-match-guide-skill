@@ -16,7 +16,7 @@ description: 整理成年男子一线足球队的完整赛季赛程、赛事分�
 5. 对日期、对手、赛事或转播渠道不确定的项目使用 `tbd`，显示“待定”，绝不凭常识补全；用户提供的既有海报、对话记录或结构化数据可以作为辅助来源，但必须标注为用户参考或 `scheduled`，不能冒充官方确认。
 6. 运行 `scripts/check_coverage.py`，输出已发现赛事、未覆盖赛事、转播确认数和最后检查时间。
 7. 读取球队配置并检查队徽库：先按 `teamId` 检查 `assets/` 中是否已有经过核验的官方队徽；已有就直接复用，不重复下载。库中没有时，必须从该俱乐部官网获取官方队徽资源，保存到 `assets/<teamId>-crest-official.<ext>`，并填写 `crest`、`crestSource`、`crestSourcePage` 和 `crestRightsNote`。官网无法访问或无法确认资源时暂停正式海报生成，向用户说明，不得用文字盾牌代替。
-8. 以 `asOfDate` 或最后检查日期为基准，排除已经结束、已取消和已过去的比赛，再运行 `scripts/render_poster.py`，生成面向未来看球的完整赛季长图。原始 JSON 和覆盖报告保留完整历史记录，不删除已结束比赛。默认在长图右上角加入带来源标记的格格工具箱主页二维码；用户提供其他引流链接时用 `--qr-url` 覆盖，明确不需要时用 `--no-qr`。
+8. 以 `asOfDate` 或最后检查日期为基准，排除已经结束、已取消和已过去的比赛，再运行 `scripts/render_poster.py`，生成面向未来看球的完整赛季长图。原始 JSON 和覆盖报告保留完整历史记录，不删除已结束比赛。生成前先询问用户是否要放二维码：默认使用格格工具箱主页；用户提供自己的网址时，将完整链接传给 `--qr-url`，并用 `--footer-url` 指定海报底部显示的网址、用 `--footer-label` 指定署名；明确不需要二维码时用 `--no-qr`。
 9. 输出来源、更新时间、待确认项目和覆盖报告。
 
 ## 渲染模块边界
@@ -58,8 +58,15 @@ python3 scripts/check_coverage.py normalized.json -o coverage.json
 python3 scripts/render_poster.py normalized.json --output-dir output
 # 仅保留矢量母版和 HTML，不生成 PNG
 python3 scripts/render_poster.py normalized.json --output-dir output --no-png
-# 覆盖二维码目标（例如用户自己的公众号、社群或主页链接）
-python3 scripts/render_poster.py normalized.json --output-dir output --qr-url "https://example.com/?from=football-match-guide"
+# 使用用户自己的网址和二维码目标
+python3 scripts/render_poster.py normalized.json --output-dir output \
+  --qr-url "https://example.com/your-page" \
+  --footer-url "https://example.com" \
+  --footer-label "我的主页"
+# 只替换二维码目标；未单独指定底部网址时，底部同步显示该二维码网址
+python3 scripts/render_poster.py normalized.json --output-dir output --qr-url "https://example.com/your-page"
+# 明确不生成二维码，但保留默认底部网址
+python3 scripts/render_poster.py normalized.json --output-dir output --no-qr
 ```
 
 详细字段规则见：

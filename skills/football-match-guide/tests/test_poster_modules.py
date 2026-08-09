@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from poster.classic_layout import render_competition_grid  # noqa: E402
 from poster.registry import build_registry, specs_for_section  # noqa: E402
+from render_poster import footer_site_text  # noqa: E402
 
 
 class PosterModuleTests(unittest.TestCase):
@@ -47,6 +48,9 @@ class PosterModuleTests(unittest.TestCase):
         render_competition_grid([], 0, specs_for_section(registry, "cup"), fixtures, {}, fake_panel)
         self.assertEqual(sum(count for name, count in rendered if name == "UEFA Champions League"), 8)
         self.assertEqual(len([name for name, count in rendered if name == "UEFA Champions League"]), 2)
+
+    def test_custom_footer_url_is_shortened_without_query(self):
+        self.assertEqual(footer_site_text("https://example.com/guide?from=test"), "example.com/guide")
 
 
 if __name__ == "__main__":
