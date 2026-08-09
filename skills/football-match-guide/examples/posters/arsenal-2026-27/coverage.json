@@ -1,0 +1,86 @@
+{
+  "team": {
+    "teamId": "arsenal",
+    "nameZh": "阿森纳",
+    "nameEn": "Arsenal",
+    "colors": {
+      "primary": "#d71920",
+      "secondary": "#ffffff",
+      "accent": "#f4c542",
+      "text": "#241b19"
+    },
+    "styleProfile": "classic-football",
+    "crest": "assets/arsenal-crest-official.svg"
+  },
+  "season": "2026/27",
+  "region": "CN-mainland",
+  "competitionsFound": [
+    "EFL Cup",
+    "Emirates Cup",
+    "FA Community Shield",
+    "FA Cup",
+    "Official Friendlies",
+    "Premier League",
+    "UEFA Champions League"
+  ],
+  "competitionsPending": [
+    "EFL Cup",
+    "FA Cup",
+    "UEFA Champions League"
+  ],
+  "competitionDetails": {
+    "EFL Cup": {
+      "type": "league-cup",
+      "total": 6,
+      "confirmed": 0,
+      "pending": 6
+    },
+    "Emirates Cup": {
+      "type": "friendly",
+      "total": 1,
+      "confirmed": 1,
+      "pending": 0
+    },
+    "FA Community Shield": {
+      "type": "super-cup",
+      "total": 1,
+      "confirmed": 1,
+      "pending": 0
+    },
+    "FA Cup": {
+      "type": "domestic-cup",
+      "total": 6,
+      "confirmed": 0,
+      "pending": 6
+    },
+    "Official Friendlies": {
+      "type": "friendly",
+      "total": 3,
+      "confirmed": 3,
+      "pending": 0
+    },
+    "Premier League": {
+      "type": "domestic-league",
+      "total": 38,
+      "confirmed": 38,
+      "pending": 0
+    },
+    "UEFA Champions League": {
+      "type": "continental",
+      "total": 17,
+      "confirmed": 0,
+      "pending": 17
+    }
+  },
+  "fixtureCount": 72,
+  "fixtureStatusCounts": {
+    "confirmed": 4,
+    "scheduled": 39,
+    "tbd": 29
+  },
+  "broadcastsConfirmed": 0,
+  "broadcastsScheduled": 92,
+  "broadcastsPending": 29,
+  "lastCheckedAt": "2026-08-08",
+  "sourceMode": "official-plus-user-reference"
+}

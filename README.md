@@ -23,7 +23,7 @@ $aigegebox-football-match-guide
 没有官方确认的数据标记为待定，不要猜测。
 ```
 
-也可以替换为其他球队，例如皇家马德里、巴塞罗那或北京国安。
+也可以替换为其他球队，例如皇家马德里、拜仁慕尼黑或北京国安。
 
 ## 安装
 
@@ -77,11 +77,23 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 
 | 球队 | 示例状态 | 文件 |
 | --- | --- | --- |
-| 阿森纳 | 已有赛程示例 | [`arsenal-2026-27.json`](skills/football-match-guide/examples/arsenal-2026-27.json) |
-| 皇家马德里 | 已有赛程示例 | [`real-madrid-2026-27-2026-08-08.json`](skills/football-match-guide/examples/real-madrid-2026-27-2026-08-08.json) |
-| 巴塞罗那 | 第二阶段补齐 | 待添加结构化数据和海报预览 |
+| 阿森纳 | 已有完整赛程示例和海报预览 | [`JSON`](skills/football-match-guide/examples/arsenal-2026-27-real-2026-08-09.json) · [`海报预览`](skills/football-match-guide/examples/posters/arsenal-2026-27/poster-preview.png) |
+| 皇家马德里 | 已有赛程示例和海报预览 | [`JSON`](skills/football-match-guide/examples/real-madrid-2026-27-2026-08-08.json) · [`海报预览`](skills/football-match-guide/examples/posters/real-madrid-2026-27/poster-preview.png) |
+| 拜仁慕尼黑 | 官方当前快照和海报预览 | [`JSON`](skills/football-match-guide/examples/bayern-munich-2026-27-2026-08-09.json) · [`海报预览`](skills/football-match-guide/examples/posters/bayern-munich-2026-27/poster-preview.png) |
 
-巴萨示例会在下一阶段补齐，届时同时加入 JSON、覆盖报告和海报预览，不在当前 README 中虚构链接。
+示例海报使用同一套确定性排版脚本生成；阿森纳和皇马复用已经验证过的输出，拜仁用于验证德甲、德国杯和超级杯等赛事配置。未公布的欧冠赛程和中国大陆转播信息会明确显示“待定”。
+
+### 海报预览
+
+<table>
+  <tr>
+    <td align="center"><img src="skills/football-match-guide/examples/posters/arsenal-2026-27/poster-preview.png" width="220" alt="阿森纳 2026/27 赛季看球指南海报"><br>阿森纳</td>
+    <td align="center"><img src="skills/football-match-guide/examples/posters/real-madrid-2026-27/poster-preview.png" width="220" alt="皇家马德里 2026/27 赛季看球指南海报"><br>皇家马德里</td>
+    <td align="center"><img src="skills/football-match-guide/examples/posters/bayern-munich-2026-27/poster-preview.png" width="220" alt="拜仁慕尼黑 2026/27 赛季看球指南海报"><br>拜仁慕尼黑</td>
+  </tr>
+</table>
+
+每个预览目录同时保留 `season-poster.svg`、`season-poster.html`、4 倍 PNG 的渲染清单和覆盖报告，方便查看代码之外的实际成品。
 
 ## 目录结构
 

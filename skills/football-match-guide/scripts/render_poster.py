@@ -48,6 +48,10 @@ COMPETITION_LABELS = {
     "La Liga": "西甲 La Liga",
     "Copa del Rey": "国王杯 Copa del Rey",
     "Supercopa de España": "西超杯 Supercopa de España",
+    "Bundesliga": "德甲 Bundesliga",
+    "DFB-Pokal": "德国杯 DFB-Pokal",
+    "Franz Beckenbauer Supercup": "弗朗茨·贝肯鲍尔超级杯 Franz Beckenbauer Supercup",
+    "Telekom Cup": "电信杯 Telekom Cup",
 }
 CUP_STAGE_ORDER = {
     "EFL Cup": {
@@ -279,6 +283,8 @@ def display_date(fixture: dict[str, Any]) -> str:
 
 
 def display_card_date(fixture: dict[str, Any]) -> str:
+    if fixture.get("dateLabel"):
+        return str(fixture["dateLabel"])
     value = fixture.get("date")
     if isinstance(value, str) and len(value) >= 10:
         return format_short_date(value)
@@ -356,6 +362,10 @@ def display_card_tag(fixture: dict[str, Any]) -> str:
         "La Liga": "西甲",
         "Copa del Rey": "国王杯",
         "Supercopa de España": "西超杯",
+        "Bundesliga": "德甲",
+        "DFB-Pokal": "德国杯",
+        "Franz Beckenbauer Supercup": "超级杯",
+        "Telekom Cup": "电信杯",
     }
     return tags.get(fixture.get("competition"), TYPE_LABELS.get(fixture.get("competitionType"), "赛事"))
 

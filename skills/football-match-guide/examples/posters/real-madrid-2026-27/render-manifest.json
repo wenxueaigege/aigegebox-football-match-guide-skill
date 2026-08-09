@@ -1,0 +1,81 @@
+{
+  "outputs": [
+    "season-poster.svg",
+    "season-poster.html",
+    "season-poster-4x.png"
+  ],
+  "svgMaster": true,
+  "pngRasterizer": "rsvg-convert",
+  "pngOutputs": [
+    {
+      "file": "season-poster-4x.png",
+      "width": 4320,
+      "height": 13564,
+      "scale": 4
+    }
+  ],
+  "pngError": "",
+  "team": {
+    "teamId": "real-madrid",
+    "nameZh": "皇家马德里",
+    "nameEn": "Real Madrid",
+    "colors": {
+      "primary": "#0b2d6b",
+      "secondary": "#ffffff",
+      "accent": "#d4af37",
+      "text": "#152238"
+    },
+    "styleProfile": "classic-football",
+    "crest": "assets/real-madrid-crest-official.png",
+    "crestSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-madrid.png",
+    "crestSourcePage": "https://www.laliga.com/es-GB/clubes/real-madrid/proximos-partidos",
+    "crestRightsNote": "队徽为赛事资料中的官方俱乐部标识，仅用于球队赛程识别；公开发布前应遵守相关商标和版权规则。",
+    "leagueNameZh": "西甲联赛",
+    "leagueNameEn": "La Liga",
+    "leagueTitle": "西甲联赛",
+    "competitionSpecs": [
+      {
+        "name": "Copa del Rey",
+        "competitionType": "domestic-cup",
+        "section": "cup",
+        "layout": "paired",
+        "showPending": true
+      },
+      {
+        "name": "Supercopa de España",
+        "competitionType": "super-cup",
+        "section": "cup",
+        "layout": "paired",
+        "showPending": true
+      },
+      {
+        "name": "UEFA Champions League",
+        "competitionType": "continental",
+        "section": "cup",
+        "layout": "split-rows",
+        "showPending": true
+      }
+    ],
+    "competitionOrder": [
+      "Copa del Rey",
+      "Supercopa de España",
+      "UEFA Champions League"
+    ]
+  },
+  "season": "2026/27",
+  "lastCheckedAt": "2026-08-08",
+  "asOfDate": "2026-08-08",
+  "qrUrl": "http://www.wenxueaigege.com?from=football-match-guide",
+  "qrUrlProvided": true,
+  "qrRendered": true,
+  "qrPlacement": {
+    "seasonPoster": "header-top-right"
+  },
+  "crest": {
+    "asset": "assets/real-madrid-crest-official.png",
+    "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-madrid.png",
+    "preserveAspectRatio": true,
+    "rightsNote": "队徽为赛事资料中的官方俱乐部标识，仅用于球队赛程识别；公开发布前应遵守相关商标和版权规则。"
+  },
+  "note": "本 Skill 只生成完整赛季长图；SVG 为矢量母版，默认同时生成 4 倍 PNG。二维码由 Skill 自带的标准库编码器生成。"
+}

@@ -1,0 +1,55 @@
+{
+  "outputs": [
+    "season-poster.svg",
+    "season-poster.html",
+    "season-poster-4x.png"
+  ],
+  "svgMaster": true,
+  "pngRasterizer": "rsvg-convert",
+  "pngOutputs": [
+    {
+      "file": "season-poster-4x.png",
+      "width": 4320,
+      "height": 16172,
+      "scale": 4
+    }
+  ],
+  "pngError": "",
+  "team": {
+    "teamId": "arsenal",
+    "nameZh": "阿森纳",
+    "nameEn": "Arsenal",
+    "colors": {
+      "primary": "#d71920",
+      "secondary": "#ffffff",
+      "accent": "#f4c542",
+      "text": "#241b19"
+    },
+    "styleProfile": "classic-football",
+    "crest": "assets/arsenal-crest-official.svg",
+    "crestSource": "https://resources.premierleague.com/premierleague25/badges-alt/3.svg",
+    "crestSourcePage": "https://www.premierleague.com/en/clubs/3/arsenal/overview",
+    "crestRightsNote": "Arsenal crest is a protected club trademark. Confirm permission before public or commercial distribution.",
+    "competitionLabels": {
+      "domestic-league": "英超联赛",
+      "continental": "欧战",
+      "domestic-cup": "国内杯赛"
+    }
+  },
+  "season": "2026/27",
+  "lastCheckedAt": "2026-08-08",
+  "asOfDate": "2026-08-08",
+  "qrUrl": "http://www.wenxueaigege.com?from=football-match-guide",
+  "qrUrlProvided": true,
+  "qrRendered": true,
+  "qrPlacement": {
+    "seasonPoster": "header-top-right"
+  },
+  "crest": {
+    "asset": "assets/arsenal-crest-official.svg",
+    "source": "https://resources.premierleague.com/premierleague25/badges-alt/3.svg",
+    "preserveAspectRatio": true,
+    "rightsNote": "Arsenal crest is a protected club trademark. Confirm permission before public or commercial distribution."
+  },
+  "note": "本 Skill 只生成完整赛季长图；SVG 为矢量母版，默认同时生成 4 倍 PNG。二维码由 Skill 自带的标准库编码器生成。"
+}

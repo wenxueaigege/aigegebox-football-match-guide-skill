@@ -1,0 +1,47 @@
+{
+  "teamId": "bayern-munich",
+  "nameZh": "拜仁慕尼黑",
+  "nameEn": "Bayern Munich",
+  "colors": {
+    "primary": "#dc052d",
+    "secondary": "#ffffff",
+    "accent": "#f3c400",
+    "text": "#1d1d1d"
+  },
+  "styleProfile": "classic-football",
+  "crest": "assets/bayern-munich-crest-official.svg",
+  "crestSource": "https://img.fcbayern.com/image/upload/v1779947813/cms/public/images/fcbayern-com/logos/fcbayern.svg",
+  "crestSourcePage": "https://fcbayern.com/store/en-aa/i/logo",
+  "crestAssetMirror": "https://commons.wikimedia.org/wiki/File:FC_Bayern_M%C3%BCnchen_logo_(2024).svg",
+  "crestRightsNote": "队徽为 FC Bayern 官方标识；官网页面说明其受商标保护。公开发布或商业使用前应确认相关许可。",
+  "leagueTitle": "德甲联赛",
+  "leagueNameEn": "Bundesliga",
+  "competitionSpecs": [
+    {
+      "name": "DFB-Pokal",
+      "competitionType": "domestic-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "Franz Beckenbauer Supercup",
+      "competitionType": "super-cup",
+      "section": "cup",
+      "layout": "paired",
+      "showPending": true
+    },
+    {
+      "name": "UEFA Champions League",
+      "competitionType": "continental",
+      "section": "cup",
+      "layout": "split-rows",
+      "showPending": true
+    }
+  ],
+  "competitionOrder": [
+    "DFB-Pokal",
+    "Franz Beckenbauer Supercup",
+    "UEFA Champions League"
+  ]
+}

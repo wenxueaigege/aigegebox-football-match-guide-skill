@@ -1,0 +1,66 @@
+{
+  "team": {
+    "teamId": "real-madrid",
+    "nameZh": "皇家马德里",
+    "nameEn": "Real Madrid"
+  },
+  "season": "2026/27",
+  "region": "CN-mainland",
+  "competitionsFound": [
+    "Copa del Rey",
+    "La Liga",
+    "Official Friendlies",
+    "Supercopa de España",
+    "UEFA Champions League"
+  ],
+  "competitionsPending": [
+    "Copa del Rey",
+    "Official Friendlies",
+    "Supercopa de España",
+    "UEFA Champions League"
+  ],
+  "competitionDetails": {
+    "Copa del Rey": {
+      "type": "domestic-cup",
+      "total": 1,
+      "confirmed": 0,
+      "pending": 1
+    },
+    "La Liga": {
+      "type": "domestic-league",
+      "total": 38,
+      "confirmed": 38,
+      "pending": 0
+    },
+    "Official Friendlies": {
+      "type": "friendly",
+      "total": 4,
+      "confirmed": 3,
+      "pending": 1
+    },
+    "Supercopa de España": {
+      "type": "super-cup",
+      "total": 1,
+      "confirmed": 0,
+      "pending": 1
+    },
+    "UEFA Champions League": {
+      "type": "continental",
+      "total": 1,
+      "confirmed": 0,
+      "pending": 1
+    }
+  },
+  "fixtureCount": 45,
+  "fixtureStatusCounts": {
+    "confirmed": 3,
+    "finished": 1,
+    "scheduled": 38,
+    "tbd": 3
+  },
+  "broadcastsConfirmed": 0,
+  "broadcastsScheduled": 0,
+  "broadcastsPending": 45,
+  "lastCheckedAt": "2026-08-08",
+  "sourceMode": "official-current-snapshot"
+}
