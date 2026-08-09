@@ -1,7 +1,7 @@
 interface:
   display_name: "球迷看球赛程"
   short_description: "自动整理球队全赛季赛程并生成中国大陆看球海报与转播指南"
-  default_prompt: "Use $aigegebox-football-match-guide to整理一支球队的中国大陆看球赛程并生成完整赛季长图。"
+  default_prompt: "Use $aigegebox-football-match-guide，先确认球队和是否挂链接，再整理中国大陆看球赛程并生成完整赛季长图。"
 
 policy:
   allow_implicit_invocation: true

@@ -115,6 +115,6 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 
 ## 反馈与来源标记
 
-欢迎通过 GitHub Issues 反馈数据遗漏、排版问题或新的球队需求。生成海报时，二维码目标和底部网址可以由使用者自己指定：`--qr-url` 控制二维码实际打开的完整链接，`--footer-url` 控制海报底部显示的网址，`--footer-label` 控制署名。未指定时默认使用格格工具箱主页；明确不需要二维码时使用 `--no-qr`。默认主页二维码继续使用 `from=football-match-guide` 来源参数，以兼容已有访问统计和历史链接。
+欢迎通过 GitHub Issues 反馈数据遗漏、排版问题或新的球队需求。每次生成前，Skill 只先确认两件事：球队，以及是否挂链接。选择“是”后再填写二维码目标网址、底部显示网址和署名；只给一个网址时二维码和底部默认使用同一网址。选择“否”时使用 `--no-qr`，不放二维码。默认主页二维码继续使用 `from=football-match-guide` 来源参数，以兼容已有访问统计和历史链接；脚本参数仍支持 `--qr-url`、`--footer-url` 和 `--footer-label` 分别控制细节。
 
 仓库地址：<https://github.com/wenxueaigege/aigegebox-football-match-guide-skill>
