@@ -36,6 +36,33 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 
 安装后重新打开 Codex 会话，再使用 `$aigegebox-football-match-guide` 调用。
 
+## 平台兼容与安装方式
+
+这个项目是“Agent Skill”，不是所有聊天 App 都能直接安装的插件。要完整生成海报，平台至少需要能够读取 `SKILL.md`、运行随附的 Python 脚本、写入输出文件，并在允许时访问官方赛程来源。
+
+| 平台或环境 | 使用方式 | 能力边界 |
+| --- | --- | --- |
+| Codex | 使用上面的 GitHub 安装命令 | 当前版本可完整运行 |
+| 通义千问 / 阿里云百炼智能体 | 将 Skill 目录打包成 ZIP，在百炼“自定义 Skill”中上传，再添加到智能体 | 可完整运行，但以百炼的脚本执行、联网和文件权限为准 |
+| 火山 ArkClaw 等 Agent 环境 | 按平台自己的 Skill/ClawHub 安装方式导入 | 不能直接套用 Codex 安装命令，需先验证脚本和依赖 |
+| 普通千问、普通豆包聊天窗口 | 可粘贴 `SKILL.md` 或提供 JSON 让模型参考 | 不保证能运行脚本、生成 SVG/PNG 或自动下载队徽 |
+
+### 百炼上传版
+
+百炼自定义 Skill 要求 ZIP 根目录直接包含 `SKILL.md`。在本仓库中进入 Skill 目录后打包：
+
+```bash
+cd skills/football-match-guide
+zip -r ~/Desktop/aigegebox-football-match-guide-qwen.zip \
+  SKILL.md agents assets examples references scripts teams
+```
+
+然后在百炼控制台的“自定义 Skill”中上传这个 ZIP，审核通过后添加到智能体。ZIP 包不应包含 Git 历史、个人记忆、服务器配置、密钥或大体积试运行输出。
+
+### 普通用户怎么用
+
+对不熟悉 Agent 的球迷，最稳妥的路径仍然是后续提供网页生成器。Skill 主要服务于会使用 Codex、百炼智能体、ArkClaw 等 Agent 的用户；网页生成器则负责让普通用户选择球队后直接生成，不要求他们理解 Skill、Python 或 GitHub。
+
 ## 默认范围
 
 - 默认地区：中国大陆（`CN-mainland`）。
