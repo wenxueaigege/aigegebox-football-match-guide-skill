@@ -27,11 +27,13 @@ $aigegebox-football-match-guide
 
 ## 安装
 
+当前版本为 `1.1.0`。此前 `1.0.1` 使用的目录 `skills/football-match-guide/` 已迁移为下面的新路径；旧路径只保留迁移说明，不再作为可安装 Skill。
+
 通过 Codex Skill Installer 安装：
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/wenxueaigege/aigegebox-football-match-guide-skill/tree/main/skills/football-match-guide
+  --url https://github.com/wenxueaigege/aigegebox-football-match-guide-skill/tree/main/skills/aigegebox-football-match-guide
 ```
 
 安装后重新打开 Codex 会话，再使用 `$aigegebox-football-match-guide` 调用。
@@ -52,7 +54,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 百炼自定义 Skill 要求 ZIP 根目录直接包含 `SKILL.md`。在本仓库中进入 Skill 目录后打包：
 
 ```bash
-cd skills/football-match-guide
+cd skills/aigegebox-football-match-guide
 zip -r ~/Desktop/aigegebox-football-match-guide-qwen.zip \
   SKILL.md agents assets examples references scripts teams
 ```
@@ -104,9 +106,9 @@ zip -r ~/Desktop/aigegebox-football-match-guide-qwen.zip \
 
 | 球队 | 示例状态 | 文件 |
 | --- | --- | --- |
-| 阿森纳 | 已有完整赛程示例和海报预览 | [`JSON`](skills/football-match-guide/examples/arsenal-2026-27-real-2026-08-09.json) · [`海报预览`](skills/football-match-guide/examples/posters/arsenal-2026-27/poster-preview.png) |
-| 皇家马德里 | 已有赛程示例和海报预览 | [`JSON`](skills/football-match-guide/examples/real-madrid-2026-27-2026-08-08.json) · [`海报预览`](skills/football-match-guide/examples/posters/real-madrid-2026-27/poster-preview.png) |
-| 拜仁慕尼黑 | 官方当前快照和海报预览 | [`JSON`](skills/football-match-guide/examples/bayern-munich-2026-27-2026-08-09.json) · [`海报预览`](skills/football-match-guide/examples/posters/bayern-munich-2026-27/poster-preview.png) |
+| 阿森纳 | 已有完整赛程示例和海报预览 | [`JSON`](skills/aigegebox-football-match-guide/examples/arsenal-2026-27-real-2026-08-09.json) · [`海报预览`](skills/aigegebox-football-match-guide/examples/posters/arsenal-2026-27/poster-preview.png) |
+| 皇家马德里 | 已有赛程示例和海报预览 | [`JSON`](skills/aigegebox-football-match-guide/examples/real-madrid-2026-27-2026-08-08.json) · [`海报预览`](skills/aigegebox-football-match-guide/examples/posters/real-madrid-2026-27/poster-preview.png) |
+| 拜仁慕尼黑 | 官方当前快照和海报预览 | [`JSON`](skills/aigegebox-football-match-guide/examples/bayern-munich-2026-27-2026-08-09.json) · [`海报预览`](skills/aigegebox-football-match-guide/examples/posters/bayern-munich-2026-27/poster-preview.png) |
 
 示例海报使用同一套确定性排版脚本生成；阿森纳和皇马复用已经验证过的输出，拜仁用于验证德甲、德国杯和超级杯等赛事配置。未公布的欧冠赛程和中国大陆转播信息会明确显示“待定”。
 
@@ -114,9 +116,9 @@ zip -r ~/Desktop/aigegebox-football-match-guide-qwen.zip \
 
 <table>
   <tr>
-    <td align="center"><img src="skills/football-match-guide/examples/posters/arsenal-2026-27/poster-preview.png" width="220" alt="阿森纳 2026/27 赛季看球指南海报"><br>阿森纳</td>
-    <td align="center"><img src="skills/football-match-guide/examples/posters/real-madrid-2026-27/poster-preview.png" width="220" alt="皇家马德里 2026/27 赛季看球指南海报"><br>皇家马德里</td>
-    <td align="center"><img src="skills/football-match-guide/examples/posters/bayern-munich-2026-27/poster-preview.png" width="220" alt="拜仁慕尼黑 2026/27 赛季看球指南海报"><br>拜仁慕尼黑</td>
+    <td align="center"><img src="skills/aigegebox-football-match-guide/examples/posters/arsenal-2026-27/poster-preview.png" width="220" alt="阿森纳 2026/27 赛季看球指南海报"><br>阿森纳</td>
+    <td align="center"><img src="skills/aigegebox-football-match-guide/examples/posters/real-madrid-2026-27/poster-preview.png" width="220" alt="皇家马德里 2026/27 赛季看球指南海报"><br>皇家马德里</td>
+    <td align="center"><img src="skills/aigegebox-football-match-guide/examples/posters/bayern-munich-2026-27/poster-preview.png" width="220" alt="拜仁慕尼黑 2026/27 赛季看球指南海报"><br>拜仁慕尼黑</td>
   </tr>
 </table>
 
@@ -124,7 +126,7 @@ zip -r ~/Desktop/aigegebox-football-match-guide-qwen.zip \
 
 ## 目录结构
 
-实际 Skill 位于 `skills/football-match-guide/`：
+实际 Skill 位于 `skills/aigegebox-football-match-guide/`：
 
 - `SKILL.md`：触发条件、工作流程和失败处理。
 - `scripts/`：规范化、校验、覆盖检查和海报渲染脚本。
@@ -155,3 +157,9 @@ Skill 规则、渲染器和球队资料分开维护。球队档案、官方队�
 欢迎通过 GitHub Issues 反馈数据遗漏、排版问题或新的球队需求。每次生成前，Skill 只先确认两件事：球队，以及是否挂链接。选择“是”后再填写二维码目标网址、底部显示网址和署名；只给一个网址时二维码和底部默认使用同一网址。选择“否”时使用 `--no-qr`，不放二维码。默认主页二维码继续使用 `from=football-match-guide` 来源参数，以兼容已有访问统计和历史链接；脚本参数仍支持 `--qr-url`、`--footer-url` 和 `--footer-label` 分别控制细节。
 
 仓库地址：<https://github.com/wenxueaigege/aigegebox-football-match-guide-skill>
+
+### 版本迁移
+
+- `1.0.1`：历史发布包，继续保留用于回滚和其他平台兼容。
+- `1.1.0`：当前版本，增加公共资料缓存读取、脱敏贡献候选包、数据集校验和完整回归测试，并统一 Skill 目录名。
+- 从旧路径升级时，请先卸载或移出旧的 `football-match-guide` 安装目录，再安装新路径，避免同名 Skill 重复发现。

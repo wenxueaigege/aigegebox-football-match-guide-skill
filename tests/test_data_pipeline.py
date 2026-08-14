@@ -7,13 +7,16 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_ROOT = ROOT.parents[3] / "data" / "aigegebox-football-match-data"
+SKILL_ROOT = ROOT / "skills" / "aigegebox-football-match-guide"
+DATA_ROOT = ROOT.parents[1] / "data" / "aigegebox-football-match-data"
 
 
 class DataPipelineTests(unittest.TestCase):
     def test_public_dataset_validates(self):
+        if not DATA_ROOT.exists():
+            self.skipTest("公共资料库是独立仓库，未随 Skill 包下载")
         result = subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "validate_dataset.py"), str(DATA_ROOT)],
+            [sys.executable, str(SKILL_ROOT / "scripts" / "validate_dataset.py"), str(DATA_ROOT)],
             capture_output=True,
             text=True,
             check=False,
@@ -21,13 +24,13 @@ class DataPipelineTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
     def test_contribution_requires_explicit_consent(self):
-        snapshot = ROOT / "examples" / "arsenal-2026-27-real-2026-08-09.json"
-        profile = ROOT / "teams" / "arsenal.json"
+        snapshot = SKILL_ROOT / "examples" / "arsenal-2026-27-real-2026-08-09.json"
+        profile = SKILL_ROOT / "teams" / "arsenal.json"
         with tempfile.TemporaryDirectory() as temp:
             result = subprocess.run(
                 [
                     sys.executable,
-                    str(ROOT / "scripts" / "prepare_contribution.py"),
+                    str(SKILL_ROOT / "scripts" / "prepare_contribution.py"),
                     "--snapshot",
                     str(snapshot),
                     "--team-profile",
@@ -43,14 +46,14 @@ class DataPipelineTests(unittest.TestCase):
             self.assertFalse((Path(temp) / "candidate").exists())
 
     def test_contribution_is_sanitized(self):
-        snapshot = ROOT / "examples" / "arsenal-2026-27-real-2026-08-09.json"
-        profile = ROOT / "teams" / "arsenal.json"
+        snapshot = SKILL_ROOT / "examples" / "arsenal-2026-27-real-2026-08-09.json"
+        profile = SKILL_ROOT / "teams" / "arsenal.json"
         with tempfile.TemporaryDirectory() as temp:
             output = Path(temp) / "candidate"
             result = subprocess.run(
                 [
                     sys.executable,
-                    str(ROOT / "scripts" / "prepare_contribution.py"),
+                    str(SKILL_ROOT / "scripts" / "prepare_contribution.py"),
                     "--snapshot",
                     str(snapshot),
                     "--team-profile",

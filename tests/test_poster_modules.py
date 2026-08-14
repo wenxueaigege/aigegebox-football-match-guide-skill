@@ -5,7 +5,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
+SKILL_ROOT = ROOT / "skills" / "aigegebox-football-match-guide"
+sys.path.insert(0, str(SKILL_ROOT / "scripts"))
 
 from poster.classic_layout import render_competition_grid  # noqa: E402
 from poster.registry import build_registry, specs_for_section  # noqa: E402
@@ -14,7 +15,7 @@ from render_poster import footer_site_text  # noqa: E402
 
 class PosterModuleTests(unittest.TestCase):
     def setUp(self):
-        self.profile = json.loads((ROOT / "teams" / "real-madrid.json").read_text(encoding="utf-8"))
+        self.profile = json.loads((SKILL_ROOT / "teams" / "real-madrid.json").read_text(encoding="utf-8"))
 
     def test_expected_competitions_never_leak_into_cup_section(self):
         fixtures = [

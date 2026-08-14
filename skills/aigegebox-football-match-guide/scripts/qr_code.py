@@ -284,4 +284,3 @@ def qr_matrix(payload: str) -> list[list[bool]]:
         candidates.append((_penalty(matrix), matrix))
     matrix = min(candidates, key=lambda item: item[0])[1]
     return [[bool(value) for value in row] for row in matrix]
-
